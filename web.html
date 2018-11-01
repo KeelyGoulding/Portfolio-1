@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Web Design</title>
+<link href="style/style.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="style/fonts.css" type="text/css" charset="utf-8">
+<link rel="stylesheet" href="style/responsive.css" type="text/css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="js/websites.js" type="text/javascript"></script>
+<script src="js/js.js" type="text/javascript"></script>
+<link rel="icon" type="image/png" href="favicon.png">
+</head>
+
+<body>
+<a href="index.html"><header>
+	<h1>Keely Goulding</h1>
+</header></a>
+
+<nav>
+	<ul>
+		<li id="menu">Menu</li>
+		<span id="normal">
+		<a href="print.html"><li>Graphics</li></a>  <!--Graphic Design-->
+		<a href="web.html"><li>Web</li></a>
+		<a href="ps.html"><li>Photoshop</li></a>  <!--Photoshop/ photo manipulation-->
+		<a href="photo.html"><li>Photography</li></a>
+		<a href="video.html"><li>Motion</li></a>  <!--motion-->
+		<!--<a href="other.html"><li>Other Projects</li></a>-->
+		<li class="ftr_contact">Contact</li>
+		</span>
+		<span id="drop_down">
+		<a href="print.html"><li>Graphics</li></a>  <!--Graphic Design-->
+		<a href="web.html"><li>Web</li></a>
+		<a href="ps.html"><li>Photoshop</li></a>  <!--Photoshop/ photo manipulation-->
+		<a href="photo.html"><li>Photography</li></a>
+		<a href="video.html"><li>Motion</li></a>  <!--motion-->
+		<!--<a href="other.html"><li>Other Projects</li></a>-->
+		<li class="ftr_contact">Contact</li>
+		</span>
+	</ul>
+</nav>
+<div id="background">
+	<div id="main">
+	<h1>Web Design</h1>
+	<div id="web_gallery"></div>
+	<!--<figure class="web_gallery"><img src="images/flowers.jpg"><figcaption><h2>Flowers</h2>Here is a description and a link to the website.</figcaption></figure>-->
+	</div>
+</div>
+<footer>
+	<ul>
+	<li>Copyright Keely Goulding 2017</li>
+	<li class="ftr_contact" style="color:lightcoral">Contact Keely</li>
+	</ul>
+</footer>
+	<div class="overlay"></div>
+	<div class="modal" id="contact">
+		<h1>Contact</h1>
+		<span class="x">X</span>
+		<p>Thanks for your interest! Please fill out the form below to tell me about your project.</p>
+		
+		<form autocomplete="on" action="mailto:keely.goulding@gmail.com" method="post" enctype="text/plain" name="contact">
+			<label>Your Name:*</label> <input type="text" name="name" required autofocus><br>
+			<label>Company Name:</label> <input type="text" name="company"><br>
+			<label>Email:*</label> <input type="email" name="email" required><br>
+			<label>Phone:</label> <input type="tel" name="phone"><br>
+			
+			<label>Services Required:</label>
+			<div id="services"><input type="checkbox" name="graphics" value="graphics"> Graphic Design
+			<input type="checkbox" name="web" value="web"> Web Design 
+			<input type="checkbox" name="photo" value="photo"> Photo 
+			<input type="checkbox" name="video" value="video"> Video 
+			<input type="checkbox" name="other" value="other"> Other </div><br>
+			
+			<label>Message:*</label> <br><textarea name="message" rows="5" required></textarea><br>
+			<button type="submit" value="send">Submit</button>
+		</form>
+		<br>
+		<p class="validate_msg">Please fill in all required (*) fields.</p>
+		<p class="sub_confrm">Your form has been sent! I'll get back to you as soon as possible.</p>
+	</div>
+</body>
+</html>

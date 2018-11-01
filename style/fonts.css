@@ -1,0 +1,17 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face{ 
+	font-family: 'Aleo_regular';
+	src: url(../Fonts/web_fonts/aleo_regular_macroman/Aleo-Regular-webfont.woff) format('woff');
+}
+
+@font-face{ 
+	font-family: 'Nautilus';
+	src:url(../Fonts/Nautilus.otf);
+}
+
+@font-face{ 
+	font-family: 'Lane';
+	src:url(../Fonts/web_fonts/lane-narrow_regular_macroman/LANENAR_-webfont.woff);
+}
